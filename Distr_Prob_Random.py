@@ -7,6 +7,7 @@ Created on Mon Mar 20 17:56:35 2023
 import streamlit as st
 import pandas as pd
 import numpy as np
+import scipy
 from scipy.stats import expon, weibull_min, kstest
 
 # Define a função que ajusta as distribuições e realiza o teste de Kolmogorov-Smirnov
